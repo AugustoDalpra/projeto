@@ -1,0 +1,39 @@
+body {
+background-color: rgb(158, 134, 98);
+}
+
+h1{
+    margin-top: 30px;
+color: rgb(75, 45, 34);
+display: flex;
+justify-content: center;
+font-family: fantasy;
+}
+
+input{
+margin-top: 5px;
+border-width: 0px;
+border-radius: 25px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+padding: 0 15px 0 15px;
+}
+
+button{
+margin-top: 5px;
+border-radius: 5px;
+border-width: 0.1px;
+font-family: fantasy;
+color: rgb(75, 45, 34);
+background-color: darksalmon;
+
+
+}
+
+
+
+.box, form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
